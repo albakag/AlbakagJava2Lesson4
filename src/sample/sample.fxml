@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="showMessageArea" editable="false" prefHeight="333.0" prefWidth="408.0" promptText="Messages" />
+      <TextArea fx:id="showContactsArea" editable="false" layoutX="408.0" prefHeight="333.0" prefWidth="190.0" promptText="Contact" />
+      <TextField fx:id="typeMessageField" layoutX="-1.0" layoutY="333.0" prefHeight="65.0" prefWidth="408.0" promptText="Type your message" />
+      <Button fx:id="btnEnter" layoutX="408.0" layoutY="333.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="190.0" text="Enter" />
+      <Button fx:id="clearBtn" layoutX="408.0" layoutY="364.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="190.0" text="Clear" />
+      <Button fx:id="AddContactBtn" layoutX="407.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="190.0" text="Добавить контакт" />
+   </children>
+</AnchorPane>
