@@ -3,13 +3,10 @@ package sample;
 import java.awt.event.KeyEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
-
-import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyCode;
 
 public class Controller {
 
